@@ -2,11 +2,16 @@
   "_id": {
     "$oid": "639add836269848bb7beb722"
   },
-  "name": "Laptop gaming ASUS TUF A15 FA506IHRB HN080W",
+  "name": "Laptop gaming ASUS TUF A15 FA506IHRB  wwwww",
   "image": "https://product.hstatic.net/1000026716/product/gearvn-laptop-gaming-asus-tuf-a15-fa506ihrb-hn080w-3_8963c17ff1334a4896a9a14cacdffbe6.png",
   "description": "Laptop gaming ASUS TUF A15 FA506IHRB HN080W là sự kết hợp giữ bộ xử lý AMD Ryzen 5 và card đồ họa NVIDIA GeForce GTX 1650 mang đến hiệu năng vượt trội mà ít mẫu laptop nào có được. Khung máy được thiết kế nhỏ gọn, hỗ trợ màn hình FHD 144Hz với Adaptive-Sync và tỷ lệ màn hình 16:9 tạo cảm giác rất thoải mái khi sử dụng.",
   "slug": "ASUS-TUF-A15",
-  "video-id": "WD60k00B10Q"
+  "videoId": "WD60k00B10Q",
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671170850344"
+    }
+  }
 },{
   "_id": {
     "$oid": "639adf096269848bb7beb723"
@@ -15,7 +20,7 @@
   "description": "Là một sản phẩm laptop gaming, không có gì lạ khi ASUS ROG Strix G15 G513IE-HN246W sở hữu vẻ ngoài bụ bẫm, mạnh mẽ phù hợp với những game thủ. Nếu bạn đang tìm cho mình dòng laptop gaming có thể đáp ứng mọi nhu cầu sử dụng thì Asus ROG Strix G15 sẽ là nhân vật đáng để bạn lưu tâm.",
   "image": "https://product.hstatic.net/1000026716/product/1_47b051aec1d74c5fab152f887b0c4c84.png",
   "slug": "ASUS-ROG-Strix-G15",
-  "video-id": "8ooSd3EOeik"
+  "videoId": "8ooSd3EOeik"
 },{
   "_id": {
     "$oid": "639bdae96269848bb7beb727"
@@ -24,7 +29,7 @@
   "description": "Vốn được biết đến với sức mạnh cấu hình cùng thiết kế đẹp mắt, laptop gaming luôn được dành một sự ưu tiên và quan tâm nhất định mỗi khi chọn mua. Sự mạnh mẽ và thiết kế đẹp mắt ấy đã được MSI tận dụng lên dòng Katana GF66.",
   "image": "https://product.hstatic.net/1000026716/product/gearvn-laptop-gaming-msi-katana-gf66-12uck-804vn-3_bd64e7fafd13454f9b9be64302a5cb91.png",
   "slug": "MSI-Katana-GF66",
-  "video-id": "SqmpooBE0E0"
+  "videoId": "SqmpooBE0E0"
 },{
   "_id": {
     "$oid": "639bdb0c6269848bb7beb728"
@@ -32,5 +37,46 @@
   "name": "Laptop gaming MSI Crosshair 17 B12UEZ 272VN",
   "image": "https://product.hstatic.net/1000026716/product/6a1969f51d4c23b819532947e7a8dd_master_23cefd553928495ea708aa66b5282ed1_b02c9b389bfe40b7be6a2d3a9a70ead3.png",
   "description": "MSI Crosshair 17 B12UEZ 272VN được trang bị vi xử lý Intel Core H-series thế hệ 12 mới nhất, mang trong mình 14 nhân 20 luồng đảm bảo có thể phát huy hiệu suất tối đa trong việc xử lý game, phần mềm văn phòng và các tác vụ đa nhiệm.",
-  "slug": "MSI-Crosshair-17"
+  "slug": "MSI-Crosshair-17",
+  "videoId": "PIgUCEv-duk"
+},{
+  "_id": {
+    "$oid": "639bffca63a764202b1fd808"
+  },
+  "name": "Laptop Gaming Acer Aspire 7 A715 42G R05G",
+  "description": "Acer Aspire 7 2020 A715 42G tích hợp card đồ họa NVIDIA GTX1650 4GB GDDR6, là laptop chơi game tốt nhất phân khúc. Không chỉ vậy, phiên bản này còn mang thiết kế mới gọn gàng và sexy hơn.",
+  "image": "https://product.hstatic.net/1000026716/product/gearvn-laptop-gaming-acer-aspire-7-a715-42g-r05g-1_99e01e2a3f0242f7bbc224af2985ea3c.jpg",
+  "videoId": "qF80ZzYmBUY",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671167946318"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671167946318"
+    }
+  },
+  "slug": "laptop-gaming-acer-aspire-7-a715-42g-r05g",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "639c00db56883191ced4e9b7"
+  },
+  "name": "Laptop Asus Gaming TUF FX706HC HX579W",
+  "description": "Laptop Asus Gaming TUF FX706HC HX579W được trang bị với CPU Intel Core i5 Gen11 và GPU GeForce RTX™ 3050 mạnh mẽ, các tựa game hành động sẽ chạy nhanh, mượt mà và khai thác tối đa màn hình IPS tần số quét 144Hz.",
+  "image": "https://product.hstatic.net/1000026716/product/us-tuf-gaming-fx706hc-i5-hx003t-3-org_de3a77bc02264194a1645fa02fd2ab74_dfd13ba578884c7f8369efe62297226a.jpg",
+  "videoId": "x7Ya-J3Mxls",
+  "createdAt": {
+    "$date": {
+      "$numberLong": "1671168219313"
+    }
+  },
+  "updatedAt": {
+    "$date": {
+      "$numberLong": "1671168219313"
+    }
+  },
+  "slug": "laptop-asus-gaming-tuf-fx706hc-hx579w",
+  "__v": 0
 }]
