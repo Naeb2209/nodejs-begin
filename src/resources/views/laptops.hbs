@@ -1,0 +1,68 @@
+<div class="mt-4">
+    <div class="row">
+        {{#each laptops}}
+        <div class="col-sm-6 col-lg-4">
+            <div class="card card-item" >
+                <a href="/laptops/{{this.slug}}">
+                    <img src="{{this.image}}" class="card-img-top" alt="...">
+                </a>
+                <div class="card-body">
+                    <a href="/laptops/{{this.slug}}">
+                        <h5 class="card-title">{{this.name}}</h5>
+                    </a>
+                    <p class="card-text">{{this.description}}</p>
+                    <a href="/laptops/{{this.slug}}" class="btn btn btn-secondary">Chi tiết</a>
+                    <a href="/laptops/{{this._id}}/edit" class="btn btn-primary">Chỉnh sửa</a>
+                    <a href="" class="btn btn btn-danger" data-id="{{this._id}}" data-bs-toggle="modal" data-bs-target="#delete-laptop">Xóa</a>
+                </div>
+            </div>
+        </div>
+        {{/each}}
+    </div>
+</div>
+
+{{!-- Delete Form --}}
+<form name="delete-laptop-from" method="POST" action="/laptops/{{laptop._id}}?_method=PUT"></form>
+
+{{!-- Confirm delete Laptop --}}
+<div id="delete-laptop" class="modal" tabindex="-1">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Xóa Laptop</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Bạn chắc chưa ????????</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+        <button id="btn-delete-laptop" type="button" class="btn btn btn-danger">Xóa bỏ</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+        var laptopId;
+        var deleteForm = document.forms['delete-laptop-from']
+        var btnDeleteLaptop = document.getElementById('btn-delete-laptop');
+        const deleteLaptopModel = document.getElementById('delete-laptop')
+
+        deleteLaptopModel.addEventListener('show.bs.modal', event => {
+            const button = event.relatedTarget
+            laptopId = button.getAttribute('data-id')
+        })
+
+        btnDeleteLaptop.onclick = function() {
+            deleteForm.action = '/laptops/' + laptopId + '?_method=DELETE'
+            deleteForm.submit()
+        }
+        
+     })
+    
+</script>

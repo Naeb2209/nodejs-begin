@@ -1,0 +1,22 @@
+<div class="mt-4">
+    <h3>Chỉnh sửa thông tin Laptop</h3>
+    <form method="POST" action="/laptops/{{laptop._id}}?_method=PUT">
+        <div class="mb-3">
+            <label for="name" class="form-label">Tên sản phẩm</label>
+            <input type="text" class="form-control" value="{{laptop.name}}" id="name" name="name">
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Mô tả</label>
+            <textarea class="form-control" id="description" name="description">{{laptop.description}}</textarea>
+        </div>
+        <div class="mb-3">
+            <label for="image" class="form-label">Đường dẫn thì ảnh</label>
+            <input type="text" class="form-control" value="{{laptop.image}}" id="image" name="image">
+        </div>
+        <div class="mb-3">
+            <label for="videoId" class="form-label">Video ID (Youtube)</label>
+            <input type="text" class="form-control" value="{{laptop.videoId}}" id="videoId" name="videoId">
+        </div>
+        <button type="submit" class="btn btn-primary">Lưu lại</button>
+    </form>
+</div>
